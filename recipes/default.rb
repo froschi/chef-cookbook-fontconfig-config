@@ -1,3 +1,6 @@
+include_recipe "ttf-dejavu-core"
+include_recipe "ucf"
+
 packages = Array.new
 
 case node[:lsb][:codename]
